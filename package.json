@@ -1,0 +1,27 @@
+{
+  "name": "short-url",
+  "version": "1.0.0",
+  "description": "My implementation of freeCodeCamp's URL Shortener Microservice",
+  "engines": {
+    "node": "6.9.4"
+  },
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aedryan/short-url-aedyan"
+  },
+  "author": "Andrew Cox",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongodb": "^2.2.25"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
+}
