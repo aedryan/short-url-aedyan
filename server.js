@@ -1,7 +1,7 @@
 const path = require("path");
 const express = require('express');
 const auth = require("./auth.js");
-const dbUrl = "mongodb://" + auth.username + ":" + auth.password + "@ds161190.mlab.com:61190/heroku_b3ztxlbp"
+const dbUrl = process.env.MONGOLAB_URI;
 const mongo = require("mongodb").MongoClient;
 const app = express();
 
