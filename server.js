@@ -1,7 +1,7 @@
 const path = require("path");
 const express = require('express');
 const auth = require("./auth.js");
-const dbUrl = process.env.MONGOLAB_URI;
+const dbUrl = process.env.MONGODB_URI;
 const mongo = require("mongodb").MongoClient;
 const app = express();
 
